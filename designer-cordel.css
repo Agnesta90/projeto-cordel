@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*{
+   margin: 0%;
+}
+@font-face {
+   font-family: 'Caveat';
+   src: url('Caveat-VariableFont_wght.ttf') format('truetype');
+}
+:root{
+   --font-padrao:'Caveat', 'Arial';
+}
+body{
+   min-height: 100vh;
+   background-color: darkgray;
+  
+}
+header{
+   background-color: black;
+   color: aliceblue;
+   text-align: center;
+   padding: 20px;
+}
+
+a{
+   text-decoration: none;
+   color: aliceblue;
+}
+a:hover{
+   text-decoration: underline;
+}
+section{
+   font-size: 0.8cm;
+   font-family: var(--font-padrao);
+   padding: 50px 10px 50px 30px;
+}
+.branco{
+   background-color: white; 
+}
+.imagem{
+   background-color: rgb(51,51,51);
+   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.819);;
+}
+.imagem > p{
+   background-color: rgba(0, 0, 0, 0.463);
+   color: white;
+   padding-left: 10px;
+   max-width: 350px;
+   text-shadow: 1px 1px 1px black;
+}
+#img1{
+   background-image: url(imagens/dor.jpg);
+   background-size: cover;
+   background-position: center center ;
+   background-attachment: fixed;
+}
+#img2{
+   background-image: url(imagens/explore.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+#img3{
+   background-image: url(imagens/nascer-do-sol.jpg);
+   background-position: bottom right;
+   background-size: cover;
+   background-attachment: fixed;
+   
+}
+footer{
+   box-shadow: 0 0 15px black;
+   background-color: black;
+   color: aliceblue;
+   text-align: center;
+}
